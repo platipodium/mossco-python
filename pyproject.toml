@@ -10,8 +10,15 @@ homepage = "http://www.mossco.de"
 documentation = "http://www.mossco.de/doc"
 repository = "https://github.com/platipodium/mossco-python"
 classifiers = [
-    "Topic :: Software Development :: Build Tools",
-    "Topic :: Software Development :: Libraries :: Python Modules"
+  "Development Status :: 1 - Planning",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Utilities",
 ]
 
 [tool.poetry.dependencies]
