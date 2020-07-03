@@ -1,4 +1,4 @@
-# Configuration file for nox
+"""Configuration file for nox"""
 import tempfile
 from typing import Any
 
@@ -45,6 +45,7 @@ def lint(session: Session) -> None:
         "flake8-bandit",
         "flake8-black",
         "flake8-bugbear",
+        "flake8-docstrings",
         "flake8-import-order",
     )
     session.run("flake8", *args)
