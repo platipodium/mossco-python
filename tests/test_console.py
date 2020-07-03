@@ -1,4 +1,4 @@
-import click.console
+import click
 import click.testing
 import pytest
 
