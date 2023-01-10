@@ -1,9 +1,10 @@
 [flake8]
+select = ANN,B,B9,BLK,C,D,E,F,I,S,W
+docstring-convention = google
+import-order-style = google
 ignore = E203,E501,W503
 max-line-length = 88
-select = ANN,B,B9,BLK,C,E,F,I,S,W
-application-import-names = hypermodern_python,tests
-import-order-style = google
+application-import-names = mossco_python,tests
 per-file-ignores =
     tests/*:S101,ANN
     noxfile.py:ANN
